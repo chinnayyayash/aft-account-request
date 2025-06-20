@@ -6,7 +6,7 @@ module "account_request_01" {
     AccountName               = "AFT-ACCOUNT-01"
     ManagedOrganizationalUnit = "ou-gnnl-oqg6zzok" 
     SSOUserEmail              = "saas-aws-pl+securitytooling@gmail.com"
-    SSOUserFirstName          = "pl-co-securitytooling-"
+    SSOUserFirstName          = "pl-co-securitytooling--"
     # Replace with your actual last name
     SSOUserLastName           = "prod"
   }
