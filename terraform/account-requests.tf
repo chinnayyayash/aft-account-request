@@ -3,12 +3,12 @@ module "account_request_01" {
 
   control_tower_parameters = {
     AccountEmail              = "saas-aws-pl+securitytooling@gmail.com"
-    AccountName               = "AFT-ACCOUNT-01"
-    ManagedOrganizationalUnit = "ou-gnnl-oqg6zzok" 
+    AccountName               = "pl-co-securitytooling-prod"
+    ManagedOrganizationalUnit = "SecurityTooling(ou-gnnl-oqg6zzok)" 
     SSOUserEmail              = "saas-aws-pl+securitytooling@gmail.com"
-    SSOUserFirstName          = "pl-co-securitytooling--"
+    SSOUserFirstName          = "chinnayya"
     # Replace with your actual last name
-    SSOUserLastName           = "prod"
+    SSOUserLastName           = "yadav"
   }
 
   account_tags = {
